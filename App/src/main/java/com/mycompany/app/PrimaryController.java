@@ -7,6 +7,11 @@ public class PrimaryController {
 
     @FXML
     private void switchToSecondary() throws IOException {
-        App.setRoot("secondary");
+        int a=2;
+        if( a>0 || a<5)
+            {
+                App.setRoot("secondary");
+            }
+        
     }
 }
